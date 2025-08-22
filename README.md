@@ -158,9 +158,7 @@ The methodology supports precision‑ag workflows by enabling **label‑efficien
 
 If this work helps your research or application, please cite the repository and acknowledge Sentinel‑1 mission data. You may also cite the core libraries: **NumPy**, **SciPy**, **scikit‑learn**, **scikit‑image**, **Rasterio**, **GeoPandas**, **Shapely**, and **OpenCV**.
 
-> Suggested paper abstract (for your repo README or paper):
->
-> Satellite imagery has emerged as a valuable resource for monitoring and classifying land cover, particularly in precision agriculture. This work explores the field of unsupervised spectral analysis of Sentinel‑1 satellite data for crop‑type classification. Using the special properties of Sentinel‑1's synthetic aperture radar (SAR) data, we evaluate Simple Linear Iterative Clustering (SLIC) and K‑means clustering to distinguish crop types in Germany. Sentinel‑1’s cloud‑penetrating, all‑weather imagery provides a robust basis for agricultural surveillance. The findings demonstrate the viability of unsupervised SAR‑based analysis for separating crop types and highlight trade‑offs between pixel‑ and object‑level clustering. This opens the door to more precise, label‑efficient crop monitoring.
+
 
 ---
 
