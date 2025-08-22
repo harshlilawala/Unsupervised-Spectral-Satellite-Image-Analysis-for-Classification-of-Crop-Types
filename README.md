@@ -1,9 +1,6 @@
 # Unsupervised Crop-Type Classification with Sentinel-1 SAR (K-means & SLIC)
 
-This repository explores **unsupervised spectral analysis** of Sentinel‑1 SAR imagery for **crop‑type classification** in a German agricultural landscape. Two complementary pipelines are provided in a single Jupyter notebook:
-
-1) **Pixel‑level clustering** with K‑means using VV/VH backscatter features  
-2) **Object‑level clustering** using **SLIC superpixels** + edge extraction + region descriptors (Histogram, HOG, GLCM) followed by K‑means
+This repository explores **unsupervised spectral analysis** of Sentinel‑1 SAR imagery for **crop‑type classification** in a German agricultural landscape. 
 
 The approach leverages Sentinel‑1’s **cloud‑penetrating, all‑weather** capability to support robust, year‑round crop monitoring in precision agriculture.
 
