@@ -10,7 +10,7 @@ The approach leverages Sentinel‑1’s **cloud‑penetrating, all‑weather** c
 ---
 
 ## Table of Contents
-- [Repository Structure](#repository-structure)
+
 - [Data Requirements](#data-requirements)
 - [Quick Start](#quick-start)
 - [Notebook Walkthrough](#notebook-walkthrough)
@@ -27,20 +27,8 @@ The approach leverages Sentinel‑1’s **cloud‑penetrating, all‑weather** c
 
 ---
 
-## Repository Structure
 
-```
-.
-├── K_means_SLIC_Prog.ipynb     # Main analysis notebook
-├── labels.geojson              # Training/evaluation polygons with crop_id labels (user-provided)
-├── vv.npy                      # Sentinel-1 VV backscatter stack/array (user-provided)
-├── vh.npy                      # Sentinel-1 VH backscatter stack/array (user-provided)
-└── README.md
-```
 
-> **Note:** Only the notebook is included by default. You’ll need to place your own `labels.geojson`, `vv.npy`, and `vh.npy` alongside the notebook (or update the paths in the notebook).
-
----
 
 ## Data Requirements
 
