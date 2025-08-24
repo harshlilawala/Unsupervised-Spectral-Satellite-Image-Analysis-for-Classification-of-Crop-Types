@@ -117,7 +117,6 @@ Place `labels.geojson`, `vv.npy`, and `vh.npy` in the same directory (or edit pa
 - Overall **accuracy percentage** (naive; suitable for relative comparison).
 - Visual inspection of region‑level labels for SLIC pipeline.
 
-> Tip: If class IDs are not aligned with K‑means labels, remap clusters to majority‑vote crop IDs before scoring to get a more meaningful accuracy. The notebook includes a mapping step using majority assignment per cluster ID.
 
 ---
 
